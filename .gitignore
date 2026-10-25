@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+build/
+*.tsbuildinfo
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 本地配置与密钥（永远别提交）
+.env
+.env.*
+*.local
+secrets/
+*.pem
+*.key
+
+# REA 运行时会话与导出（可能含目标信息）
+.rea/
+rea-sessions/
+*.rea.session

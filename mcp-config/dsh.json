@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rea": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "rea-agents@main",
+        "mcp"
+      ],
+      "env": {
+        "REA_MCP_INPUT_SCHEMA_PROFILE": "compact",
+        "REA_MCP_MAX_RESPONSE_BYTES": "800000"
+      }
+    }
+  }
+}
