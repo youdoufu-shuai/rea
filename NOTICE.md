@@ -26,7 +26,11 @@
 | `scripts/*` | 安装脚本 |
 | `mcp-config/*` | 配置片段 |
 
-原创部分以 MIT 许可发布，见 `LICENSE`。
+原创部分以 MIT 许可发布，见根目录 `LICENSE`（标准 MIT 文本）。
+
+> 注意：`LICENSE` 只覆盖本仓库的**原创**内容。
+> `docs/upstream/` 下的官方文档副本适用上游许可证，见
+> `docs/upstream/LICENSE-morluto-rea`（版权归 morluto，同为 MIT）。
 
 ## 无隶属关系
 
